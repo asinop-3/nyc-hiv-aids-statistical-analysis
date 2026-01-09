@@ -1,5 +1,7 @@
 # NYC HIV & AIDS Statistical Analysis (2016–2021)
 
+**Tech Stack:** R, tidyverse, ggplot2, rpart, randomForest, caret
+
 ## Overview
 This project analyzes HIV and AIDS diagnoses in New York City using publicly available data from NYC Open Data. The goal is to understand how diagnosis rates vary over time, across boroughs and neighborhoods, and among demographic groups, while applying statistical inference and predictive modeling techniques.
 
@@ -43,20 +45,6 @@ Due to reporting gaps, the primary analysis focuses on **2016–2021**.
 - Males have consistently higher HIV diagnosis rates than females.
 - Tree-based models outperform linear models in predictive accuracy, highlighting the importance of neighborhood and demographic factors.
 - Extreme high-rate neighborhoods are difficult to predict accurately due to data sparsity.
-
-## Files in This Repository
-- **Final code** contains the complete, cleaned analysis submitted for the course.
-- **Final report (PDF)** presents results, interpretation, and conclusions in a formal write-up.
-
-## Reproducibility
-The analysis was conducted in **R** using common statistical and data science libraries, including:
-- tidyverse
-- ggplot2
-- rpart
-- randomForest
-- caret
-
-All data sources are public and documented above.
 
 ## Limitations & Future Work
 - Limited number of years restricts time-series reliability.
